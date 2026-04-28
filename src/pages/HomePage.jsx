@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { useNavigate } from 'react-router-dom'
 
 // ── floating gallery images (replace URLs with your real uploads) ──────────
 const GALLERY = [
